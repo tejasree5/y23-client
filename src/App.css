@@ -1,0 +1,166 @@
+.carousel-container {
+  margin: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.recipes-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-list {
+  padding: 20px;
+}
+.recipe-card {
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+.nutritional-info {
+  margin-top: 10px; /* Add some space */
+}
+.recipe-list {
+  padding: 20px;
+}
+
+.recipe-list .MuiCard-root {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-list .MuiCardContent-root {
+  text-align: center;
+}
+
+.recipe-list button {
+  margin-top: 10px;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.paper {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+button {
+  margin-top: 15px;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-image: url('./assets/login-bg.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.login-box h1 {
+  text-align: center;
+  color: #556b2f; /* Dark Olive Green */
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #6b8e23; /* Olive Drab */
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6b8e23; /* Olive Drab */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #556b2f; /* Dark Olive Green */
+}
+
+/* For desktop and larger devices */
+@media (min-width: 769px) {
+  .login-container {
+    justify-content: flex-start; /* Left-align on larger screens */
+    padding-left: 50px; /* Adjust this value to increase/decrease padding */
+  }
+}
+
+/* For mobile and small devices */
+@media (max-width: 768px) {
+  .login-container {
+    justify-content: center; /* Center the login box on small devices */
+    padding-left: 0;
+  }
+
+  .login-box {
+    width: 90%;
+  }
+}
+/* Add these styles in your main CSS file */
+.dashboard-content {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.recipe-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
